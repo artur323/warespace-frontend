@@ -5,7 +5,7 @@
         <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl dark:text-gray-900">Boost your productivity today.</h2>
         <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300 dark:text-gray-500">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 dark:bg-wsblue-600 dark:text-snowwhite shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
+          <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 dark:bg-gradient-to-r dark:from-[#0C338D] dark:to-[#4F5BD3] dark:text-snowwhite shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
           <a href="#" class="text-sm font-semibold leading-6 text-white dark:text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
         <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true">
