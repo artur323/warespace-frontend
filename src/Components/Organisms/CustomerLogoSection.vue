@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-snowwhite py-24 sm:py-32" :class="{ 'dark:bg-darkBackground' : darkMode }">
+  <div class="bg-snowwhite py-24 sm:py-32 font-poppins" :class="{ 'dark:bg-darkBackground' : darkMode }">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
         <div class="mx-auto w-full max-w-xl lg:mx-0">
