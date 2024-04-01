@@ -1,16 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: "class",
+  darkMode: "media",
   content: [
-    // Example content paths...
     "./public/**/*.html",
     "./src/**/*.{js,jsx,ts,tsx,vue}",
   ],
   theme: {
     extend: {
       colors: {
-        eerieblack: "#202020",
-        warespaceblue: "#042F85",
         quicksilver: {
           50: "#DEDEDE",
           100: "#D2D2D2",

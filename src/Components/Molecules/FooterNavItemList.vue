@@ -1,6 +1,6 @@
 <template>
-  <div :class="class">
-    <h3 class="text-sm font-semibold leading-6 text-quicksilver-900 dark:text-snowwhite">{{ title }}</h3>
+  <div :class="classProps">
+    <h3 class="text-sm font-semibold leading-6 text-wsblue-900 dark:text-snowwhite">{{ title }}</h3>
     <ul role="list" class="mt-6 space-y-4">
       <li v-for="item in items" :key="item.name">
         <a :href="item.href"
@@ -16,7 +16,7 @@ import { defineProps } from 'vue';
 const props = defineProps({
   title: String,
   items: Array,
-  class: {
+  classProps: {
     type: String,
     default: ""
   }
