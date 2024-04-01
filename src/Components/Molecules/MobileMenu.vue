@@ -19,7 +19,7 @@
             <NavLink v-for="(item, index) in navigation" :key="index" :href="item.href" :label="item.name" />
           </div>
           <div class="py-6">
-            <LoginLink :href="loginHref" />
+            <LinkButton :href="loginHref" />
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { XMarkIcon } from '@heroicons/vue/24/outline'
 import CompanyLogo from '@/Components/Atoms/CompanyLogo.vue'
 import NavLink from '@/Components/Atoms/NavLink.vue'
-import LoginLink from '@/Components/Atoms/LoginLink.vue'
+import LinkButton from '@/Components/Atoms/LinkButton.vue'
 import { defineProps } from 'vue';
 
 const props = defineProps({

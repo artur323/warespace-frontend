@@ -8,9 +8,13 @@
 <script setup>
 import { defineProps } from 'vue';
 const props = defineProps({
-  href: String,
+  href: {
+    type: String,
+    default: '#'
+  },
   label: {
-    type: String, default: "Log in"
+    type: String, 
+    default: "Log in"
   }
 })
 </script>
