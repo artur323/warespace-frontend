@@ -11,7 +11,7 @@
           style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
       </div>
       <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-        <h2 class="text-base font-semibold leading-8 text-indigo-400">Our track record</h2>
+        <h2 class="text-base font-semibold leading-8 text-violetblue-400">Our track record</h2>
         <p class="mt-2 text-3xl font-bold tracking-tight text-snowwhite sm:text-4xl">Trusted by thousands of
           creators&nbsp;worldwide</p>
         <p class="mt-6 text-lg leading-8 text-quicksilver-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit.

@@ -1,5 +1,5 @@
 <template>
-  <img :src="imageSrc" :alt="alt" :class="class" :width="width" :height="height"/>
+  <img :src="imageSrc" :alt="alt" :class="classProps" :width="width" :height="height"/>
 </template>
 
 <script setup>
@@ -8,7 +8,7 @@ import { defineProps } from 'vue';
 const props = defineProps({
   imageSrc: String,
   alt: String,
-  class: {
+  classProps: {
     type: String,
     default: "max-h-12 w-full object-contain object-left"
   },

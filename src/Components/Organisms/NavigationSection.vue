@@ -8,12 +8,10 @@
         </a>
       </div>
       <div class="flex lg:hidden">
-        <DarkModeToggle :lightIcon="lightModeSvg" :darkIcon="darkModeSvg" />
         <MobileMenuButton @click="toggleMenu"/>
       </div>
       <NavigationLinks :navigation="navigation" />
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <DarkModeToggle :lightIcon="lightModeSvg" :darkIcon="darkModeSvg" />
         <LinkButton href="#" />
       </div>
     </nav>
@@ -27,7 +25,6 @@ import { navigation, lightLogo, darkLogo, lightModeSvg, darkModeSvg } from '@/da
 import CompanyLogo from '@/Components/Atoms/CompanyLogo.vue'
 import MobileMenuButton from '@/Components/Atoms/MobileMenuButton.vue'
 import NavigationLinks from '@/Components/Molecules/NavigationLinks.vue'
-import DarkModeToggle from '@/Components/Atoms/DarkModeToggle.vue'
 import MobileMenu from '@/Components/Molecules/MobileMenu.vue'
 import LinkButton from '@/Components/Atoms/LinkButton.vue'
 

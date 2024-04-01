@@ -12,11 +12,11 @@
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <FooterNavItemList :title="footerNavigation.solutions.title" :items="footerNavigation.solutions.items"/>
-            <FooterNavItemList :title="footerNavigation.support.title" :items="footerNavigation.support.items" classProperty="mt-10 md:mt-0"/>
+            <FooterNavItemList :title="footerNavigation.support.title" :items="footerNavigation.support.items" classProps="mt-10 md:mt-0"/>
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <FooterNavItemList :title="footerNavigation.company.title" :items="footerNavigation.company.items"/>
-            <FooterNavItemList :title="footerNavigation.legal.title" :items="footerNavigation.legal.items" classProperty="mt-10 md:mt-0"/>
+            <FooterNavItemList :title="footerNavigation.legal.title" :items="footerNavigation.legal.items" classProps="mt-10 md:mt-0"/>
           </div>
         </div>
       </div>

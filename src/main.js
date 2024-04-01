@@ -1,17 +1,13 @@
-import { createApp, ref, onMounted } from 'vue'
+import { createApp, ref } from 'vue'
 import './style.css'
 import App from './App.vue'
 
-const darkMode = ref(localStorage.getItem('darkMode') === 'true');
+const isDarkMode = ref(window.matchMedia('(prefers-color-scheme: dark)').matches)
 
-onMounted(() => {
-  if (darkMode.value) {
-    document.documentElement.classList.add('dark');
-  } else {
-    document.documentElement.classList.remove('dark');
-  }
-});
+window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+  isDarkMode.value = e.matches
+})
 
-export { darkMode };
-
-createApp(App).mount('#app')
+createApp(App)
+  .provide('isDarkMode', isDarkMode)
+  .mount('#app')

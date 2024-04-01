@@ -6,7 +6,7 @@
           <div class="lg:max-w-lg">
             <h2 class="text-base font-semibold leading-7 text-wsblue-600 dark:text-wsblue-300">Deploy faster</h2>
             <p
-              class="mt-2 text-3xl font-bold tracking-tight text-warespaceblue-900 dark:text-snowwhite sm:text-4xl font-poppins">
+              class="mt-2 text-3xl font-bold tracking-tight text-wsblue-900 dark:text-snowwhite sm:text-4xl font-poppins">
               A better workflow</p>
             <p class="mt-6 text-lg leading-8 text-quicksilver-600 dark:text-quicksilver-500">Lorem ipsum, dolor sit amet consectetur
               adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
