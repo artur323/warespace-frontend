@@ -14,6 +14,6 @@ import { defineProps } from 'vue';
 const props = defineProps({
   name: String,
   description: String,
-  icon: String,
+  icon: Function,
 });
 </script>
