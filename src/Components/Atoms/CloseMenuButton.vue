@@ -5,11 +5,11 @@
   </button>
 </template>
 
-<script>
-export default {
-  props: {
-    toggleMenu: Function,
-    srText: String
-  }
-}
+<script setup>
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  toggleMenu: Function,
+  srText: String
+})
 </script>

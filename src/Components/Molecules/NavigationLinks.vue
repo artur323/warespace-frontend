@@ -6,12 +6,9 @@
 
 <script setup>
 import NavLink from '@/Components/Atoms/NavLink.vue'
-</script>
+import { defineProps } from 'vue'
 
-<script>
-export default {
-  props: {
-    navigation: Array
-  }
-}
+const props = defineProps({
+  navigation: Array
+})
 </script>
