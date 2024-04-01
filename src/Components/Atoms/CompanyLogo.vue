@@ -6,19 +6,16 @@
   </a>
 </template>
 <script setup>
-import { darkMode } from '@/theme.js'
-</script>
+import { darkMode } from '@/theme'
+import { defineProps } from 'vue';
 
-<script>
-export default {
-  props: {
-    lightLogoSrc: String,
-    darkLogoSrc: String,
-    alt: String,
-    link: {
-      type: String,
-      default: "#"
-    }
+const props = defineProps({
+  lightLogoSrc: String,
+  darkLogoSrc: String,
+  alt: String,
+  link: {
+    type: String,
+    default: "#"
   }
-}
+})
 </script>
