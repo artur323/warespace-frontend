@@ -3,7 +3,7 @@
     <component :is="icon" class="h-7 w-5 flex-none text-wsblue-400" aria-hidden="true" />
     <div class="text-base leading-7">
       <h3 class="font-semibold text-snowwhite">{{ name }}</h3>
-      <p class="mt-2 text-gray-300">{{ description }}</p>
+      <p class="mt-2 text-quicksilver-300">{{ description }}</p>
     </div>
   </div>
 </template>

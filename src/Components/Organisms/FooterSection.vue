@@ -1,11 +1,11 @@
 <template>
-  <footer class="bg-snowwhite font-poppins" aria-labelledby="footer-heading" :class="{ 'dark:bg-darkBackground': darkMode }">
+  <footer class="bg-snowwhite font-poppins dark:bg-wsblue-900" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-20 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
           <CompanyLogo :lightLogoSrc="lightLogo" :darkLogoSrc="darkLogo" alt="Your Company" />
-          <p class="text-sm leading-6 text-gray-600 dark:text-gray-500">Making the world a better place through constructing elegant hierarchies.</p>
+          <p class="text-sm leading-6 text-quicksilver-600 dark:text-quicksilver-500">Making the world a better place through constructing elegant hierarchies.</p>
           <SocialLinkList :socialLinks="footerNavigation.social"/>
         
         </div>
@@ -20,8 +20,8 @@
           </div>
         </div>
       </div>
-      <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 dark:border-gray-500/10">
-        <p class="text-xs leading-5 text-gray-500">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+      <div class="mt-16 border-t border-quicksilver-900/10 pt-8 sm:mt-20 lg:mt-24 dark:border-quicksilver-500/10">
+        <p class="text-xs leading-5 text-quicksilver-500">&copy; 2020 Your Company, Inc. All rights reserved.</p>
       </div>
     </div>
   </footer>

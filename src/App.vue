@@ -1,6 +1,6 @@
 <template>
   <!-- <div class="bg-snowwhite"> -->
-  <div :class="{'dark:bg-darkBackground': darkMode}">
+  <div class="dark:bg-wsblue-900">
     <Index />
   </div>
 </template>
