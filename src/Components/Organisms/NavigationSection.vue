@@ -14,7 +14,7 @@
       <NavigationLinks :navigation="navigation" />
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <DarkModeToggle :lightIcon="lightModeSvg" :darkIcon="darkModeSvg" />
-        <LoginLink href="#" />
+        <LinkButton href="#" />
       </div>
     </nav>
     <MobileMenu :navigation="navigation" :mobileMenuOpen="mobileMenuOpen" :logoSrc="darkLogo" :closeMenu="closeMenu" :lightLogoSrc="lightLogo" :darkLogoSrc="darkLogo"/>
@@ -29,7 +29,7 @@ import MobileMenuButton from '@/Components/Atoms/MobileMenuButton.vue'
 import NavigationLinks from '@/Components/Molecules/NavigationLinks.vue'
 import DarkModeToggle from '@/Components/Atoms/DarkModeToggle.vue'
 import MobileMenu from '@/Components/Molecules/MobileMenu.vue'
-import LoginLink from '@/Components/Atoms/LoginLink.vue'
+import LinkButton from '@/Components/Atoms/LinkButton.vue'
 
 const mobileMenuOpen = ref(false)
 
