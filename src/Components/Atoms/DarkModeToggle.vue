@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import { darkMode, toggleDarkMode } from '@/theme.js'
+import { darkMode } from '@/main'
 import { defineProps } from 'vue';
 const props = defineProps({
   darkMode: Boolean,
@@ -15,4 +15,14 @@ const props = defineProps({
   darkIcon: String,
   alt: String
 })
+
+const toggleDarkMode = () => {
+  darkMode.value = !darkMode.value;
+  localStorage.setItem('darkMode', darkMode.value);
+  if (darkMode.value) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+};
 </script>

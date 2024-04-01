@@ -8,13 +8,13 @@
       class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-snowwhite dark:bg-wsblue-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-quicksilver-900/10">
       <div class="flex items-center justify-between">
         <CompanyLogo :lightLogoSrc="lightLogoSrc" :darkLogoSrc="darkLogoSrc" :alt="logoAlt" />
-        <button type="button" class="-m-2.5 rounded-md p-2.5 text-quicksilver-700" @click="closeMenu">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-warespaceblue-700" @click="closeMenu">
           <span class="sr-only">Close menu</span>
           <XMarkIcon class="h-6 w-6" aria-hidden="true" />
         </button>
       </div>
       <div class="mt-6 flow-root">
-        <div class="-my-6 divide-y divide-quicksilver-500/10">
+        <div class="-my-6 divide-y divide-warespaceblue-500/10">
           <div class="space-y-2 py-6">
             <NavLink v-for="(item, index) in navigation" :key="index" :href="item.href" :label="item.name" />
           </div>

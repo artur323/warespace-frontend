@@ -18,5 +18,5 @@
 
 <script setup>
 import LogoRow from '@/Components/Molecules/LogoRow.vue';
-import { darkMode } from '@/theme';
+import { darkMode } from '@/main';
 </script>

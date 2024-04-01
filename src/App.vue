@@ -6,9 +6,9 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { onMounted } from 'vue'
 import Index from "./Pages/Palletspace/Landingpage/Index.vue";
-import { darkMode } from './theme.js';
+import { darkMode } from "./main";
 
 onMounted(() => {
   if (darkMode.value) {
@@ -17,5 +17,4 @@ onMounted(() => {
     document.documentElement.classList.remove('dark');
   }
 });
-
 </script>

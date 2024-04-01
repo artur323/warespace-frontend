@@ -3,7 +3,7 @@
   <img v-else :src="darkLogoSrc" class="h-6 sm:h-8 w-auto" :alt="alt" />
 </template>
 <script setup>
-import { darkMode } from '@/theme'
+import { darkMode } from '@/main'
 import { defineProps } from 'vue';
 
 const props = defineProps({

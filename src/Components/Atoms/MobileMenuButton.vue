@@ -1,5 +1,5 @@
 <template>
-  <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-quicksilver-700">
+  <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-warespaceblue-700">
     <span class="sr-only">Open main menu</span>
     <Bars3Icon class="h-6 w-6" aria-hidden="true" />
   </button>
