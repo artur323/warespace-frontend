@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" class="text-sm font-semibold leading-6 text-gray-900 dark:text-snowwhite">
+  <a :href="href" class="text-sm font-semibold leading-6 text-quicksilver-900 dark:text-snowwhite">
     {{ label }}
     <span aria-hidden="true">&rarr;</span>
   </a>

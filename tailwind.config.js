@@ -9,7 +9,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkBackground: "#0f172a",
         eerieblack: "#202020",
         warespaceblue: "#042F85",
         quicksilver: {
