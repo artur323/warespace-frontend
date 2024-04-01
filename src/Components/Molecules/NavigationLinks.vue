@@ -1,0 +1,17 @@
+<template>
+  <div class="hidden lg:flex lg:gap-x-12">
+    <NavLink v-for="(item, index) in navigation" :key="index" :href="item.href" :label="item.name" />
+  </div>
+</template>
+
+<script setup>
+import NavLink from '@/Components/Atoms/NavLink.vue'
+</script>
+
+<script>
+export default {
+  props: {
+    navigation: Array
+  }
+}
+</script>
