@@ -29,6 +29,15 @@ export const features = [
   },
 ];
 
+export const logos = [
+  { light: "https://tailwindui.com/img/logos/tuple-logo-gray-900.svg", dark: "https://tailwindui.com/img/logos/tuple-logo-white.svg", alt: "Tuple" },
+  { light: "https://tailwindui.com/img/logos/reform-logo-gray-900.svg", dark: "https://tailwindui.com/img/logos/reform-logo-white.svg", alt: "Reform" },
+  { light: "https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg", dark: "https://tailwindui.com/img/logos/savvycal-logo-white.svg", alt: "SavvyCal" },
+  { light: "https://tailwindui.com/img/logos/laravel-logo-gray-900.svg", dark: "https://tailwindui.com/img/logos/laravel-logo-white.svg", alt: "Laravel" },
+  { light: "https://tailwindui.com/img/logos/transistor-logo-gray-900.svg", dark: "https://tailwindui.com/img/logos/transistor-logo-white.svg", alt: "Transistor" },
+  { light: "https://tailwindui.com/img/logos/statamic-logo-gray-900.svg", dark: "https://tailwindui.com/img/logos/statamic-logo-white.svg", alt: "Statamic" },
+];
+
 export const lightLogo = LightLogo;
 export const darkLogo = DarkLogo;
 export const lightModeSvg = LightModeSvg;
