@@ -2,7 +2,7 @@ import LightLogo from "@/assets/img/light-logo.png";
 import DarkLogo from "@/assets/img/dark-logo.webp";
 import LightModeSvg from "@/assets/icons/light-mode.svg";
 import DarkModeSvg from "@/assets/icons/dark-mode.svg";
-import { darkMode } from "@/theme";
+import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/vue/20/solid'
 
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/solid';
 
@@ -60,11 +60,11 @@ export const lightModeSvg = LightModeSvg;
 export const darkModeSvg = DarkModeSvg;
 
 export const logoRows = [
-  { dark: darkTransistorSVG, light : lightTransistorSVG, alt: 'Transistor', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain lg:col-span-1' },
-  { dark: darkReformSVG, light : lightReformSVG, alt: 'Reform', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain lg:col-span-1' },
-  { dark: darkTupleSVG, light : lightTupleSVG, alt: 'Tuple', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain lg:col-span-1' },
-  { dark: darkSavvycalSVG, light : lightSavvycalSVG, alt: 'SavvyCal', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1' },
-  { dark: darkStatamicSVG, light : lightStatamicSVG, alt: 'Statamic', width: '158', height: '48', class: 'col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1' }
+  { dark: darkTransistorSVG, light: lightTransistorSVG, alt: 'Transistor', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain lg:col-span-1' },
+  { dark: darkReformSVG, light: lightReformSVG, alt: 'Reform', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain lg:col-span-1' },
+  { dark: darkTupleSVG, light: lightTupleSVG, alt: 'Tuple', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain lg:col-span-1' },
+  { dark: darkSavvycalSVG, light: lightSavvycalSVG, alt: 'SavvyCal', width: '158', height: '48', class: 'col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1' },
+  { dark: darkStatamicSVG, light: lightStatamicSVG, alt: 'Statamic', width: '158', height: '48', class: 'col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1' }
 ];
 
 export const stats = [
@@ -78,22 +78,39 @@ export const faqs = [
   {
     question: "What's the best thing about Switzerland?",
     answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
   {
     question: "What's the best thing about Switzerland?",
     answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
   {
     question: "What's the best thing about Switzerland?",
     answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
   {
     question: "What's the best thing about Switzerland?",
     answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
-  // More questions...
+];
+
+export const cards = [
+  {
+    name: 'Sales',
+    description: 'Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.',
+    icon: PhoneIcon,
+  },
+  {
+    name: 'Technical Support',
+    description: 'Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.',
+    icon: LifebuoyIcon,
+  },
+  {
+    name: 'Media Inquiries',
+    description: 'Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.',
+    icon: NewspaperIcon,
+  },
 ];
