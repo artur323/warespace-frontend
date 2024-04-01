@@ -38,6 +38,13 @@ export const logos = [
   { light: "https://tailwindui.com/img/logos/statamic-logo-gray-900.svg", dark: "https://tailwindui.com/img/logos/statamic-logo-white.svg", alt: "Statamic" },
 ];
 
+export const stats = [
+  { id: 1, name: 'Creators on the platform', value: '8,000+' },
+  { id: 2, name: 'Flat platform fee', value: '3%' },
+  { id: 3, name: 'Uptime guarantee', value: '99.9%' },
+  { id: 4, name: 'Paid out to creators', value: '$70M' },
+];
+
 export const lightLogo = LightLogo;
 export const darkLogo = DarkLogo;
 export const lightModeSvg = LightModeSvg;
