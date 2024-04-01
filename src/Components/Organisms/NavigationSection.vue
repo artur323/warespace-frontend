@@ -2,7 +2,10 @@
   <header class="absolute inset-x-0 top-0 z-50 font-noir">
     <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
-        <CompanyLogo :lightLogoSrc="lightLogo" :darkLogoSrc="darkLogo" alt="Your Company" />
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <CompanyLogo :lightLogoSrc="lightLogo" :darkLogoSrc="darkLogo" alt="Your Company" />
+        </a>
       </div>
       <div class="flex lg:hidden">
         <DarkModeToggle :lightIcon="lightModeSvg" :darkIcon="darkModeSvg" />
@@ -19,8 +22,8 @@
 </template>
 
 <script setup>
-import { navigation, lightLogo, darkLogo, lightModeSvg, darkModeSvg } from '@/data.js'
 import { ref } from 'vue'
+import { navigation, lightLogo, darkLogo, lightModeSvg, darkModeSvg } from '@/data.js'
 import CompanyLogo from '@/Components/Atoms/CompanyLogo.vue'
 import MobileMenuButton from '@/Components/Atoms/MobileMenuButton.vue'
 import NavigationLinks from '@/Components/Molecules/NavigationLinks.vue'
