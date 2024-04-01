@@ -1,6 +1,6 @@
 <template>
   <div class="font-poppins" :class="{ 'dark:bg-darkBackground' : darkMode }">
-    <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+    <div class="mx-auto max-w-7xl sm:px-6 py-12 sm:py-20 lg:px-8">
       <div class="relative isolate overflow-hidden bg-gray-900 dark:bg-[#1e293b] px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
         <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl dark:text-snowwhite">Boost your productivity today.</h2>
         <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300 dark:text-gray-500">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
