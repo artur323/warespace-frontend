@@ -114,3 +114,48 @@ export const cards = [
     icon: NewspaperIcon,
   },
 ];
+
+export const people = [
+  {
+    name: 'Sebastian Richter',
+    role: 'Head of Product',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    bio: 'Sebastian Richter Geschäftsführer der Warespace GmbH & Co. KG',
+  },
+  {
+    name: 'Jonas Tritschallek',
+    role: 'Head of Sales',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    bio: 'Jonas Tritschallek Geschäftsführer der Warespace GmbH & Co. KG',
+  },
+  {
+    name: 'Bernd Schäflein',
+    role: 'Beirat',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    bio: 'Bernd Schäflein Chief Operating Officers (COO) im Vorstand der Schäflein AG.',
+  },
+  {
+    name: 'Uwe Fieselmann',
+    role: 'Beirat',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    bio: 'Uwe Fieselmann Vorsitzender der Geschäftsführung von Heinrich Koch Internationale Spedition GmbH & Co. KG.',
+  },
+  {
+    name: 'Marc-André Fritz',
+    role: 'Beirat',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    bio: 'Marc-André Fritz Geschäftsführer der Fritz Logistik GmbH aus Heilbronn.',
+  },
+  {
+    name: 'Bernard Motzko',
+    role: 'Beirat',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    bio: 'Bernard Motzko Chief Operating Officers (COO) im Vorstand der Zumtobel Group AG.',
+  },
+]
