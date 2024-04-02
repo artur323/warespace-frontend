@@ -21,7 +21,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { navigation, lightLogo, darkLogo, lightModeSvg, darkModeSvg } from '@/data.js'
+import { navigation, lightLogo, darkLogo } from '@/data.js'
 import CompanyLogo from '@/Components/Atoms/CompanyLogo.vue'
 import MobileMenuButton from '@/Components/Atoms/MobileMenuButton.vue'
 import NavigationLinks from '@/Components/Molecules/NavigationLinks.vue'

@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import FeatureItem from '@/Components/Atoms/FeatureItem.vue';
+import FeatureItem from '@/Components/Molecules/FeatureItem.vue';
 import { defineProps } from 'vue';
 
 const props = defineProps({

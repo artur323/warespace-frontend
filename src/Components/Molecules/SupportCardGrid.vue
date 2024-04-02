@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import SupportCard from '@/Components/Atoms/SupportCard.vue';
+import SupportCard from '@/Components/Molecules/SupportCard.vue';
 import { defineProps } from 'vue';
 
 const props = defineProps({

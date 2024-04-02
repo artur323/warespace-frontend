@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import StatItem from '@/Components/Atoms/StatItem.vue';
+import StatItem from '@/Components/Molecules/StatItem.vue';
 import { defineProps } from 'vue';
 
 const props = defineProps({

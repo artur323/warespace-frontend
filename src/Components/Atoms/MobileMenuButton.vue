@@ -1,8 +1,5 @@
 <template>
-  <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-wsblue-700 dark:text-snowwhite">
-    <span class="sr-only">Open main menu</span>
-    <Bars3Icon class="h-6 w-6" aria-hidden="true" />
-  </button>
+  <Bars3Icon class="h-6 w-6 text-wsblue-700 dark:text-snowwhite" aria-hidden="true" />
 </template>
 
 <script setup>
