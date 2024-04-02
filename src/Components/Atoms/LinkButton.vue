@@ -1,7 +1,6 @@
 <template>
   <a :href="href" class="text-sm font-semibold leading-6 dark:text-snowwhite">
-    {{ label }}
-    <span aria-hidden="true">&rarr;</span>
+    {{ label + ' &rarr;' }} 
   </a>
 </template>
 

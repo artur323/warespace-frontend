@@ -94,6 +94,11 @@ export default {
           900: "#A30013",
         },
       },
+      backgroundImage: {
+        // header logo src
+        'light-logo': "url('@/assets/img/light-logo.png')",
+        'dark-logo': "url('@/assets/img/dark-logo.webp')",
+      }
     },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],

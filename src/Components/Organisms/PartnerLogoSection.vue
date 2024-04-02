@@ -1,7 +1,7 @@
 <template>
   <div class="bg-snowwhite py-12 sm:py-20 font-poppins dark:bg-wsblue-900">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <LogoRow :darkMode="isDarkMode" />
+      <LogoRow />
       <div class="mt-16 flex justify-center">
         <p
           class="relative rounded-full bg-quicksilver-50 px-4 py-1.5 text-sm leading-6 text-quicksilver-600 ring-1 ring-inset ring-quicksilver-900/5">
@@ -17,7 +17,5 @@
 </template>
 
 <script setup>
-import { inject } from "vue";
 import LogoRow from '@/Components/Molecules/LogoRow.vue';
-const isDarkMode = inject('isDarkMode');
 </script>

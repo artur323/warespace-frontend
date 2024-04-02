@@ -4,7 +4,7 @@
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-20 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <CompanyLogo :lightLogoSrc="lightLogo" :darkLogoSrc="darkLogo" alt="Your Company" />
+          <CompanyLogo alt="Your Company" />
           <p class="text-sm leading-6 text-quicksilver-600 dark:text-quicksilver-500">Making the world a better place through constructing elegant hierarchies.</p>
           <SocialLinkList :socialLinks="footerNavigation.social"/>
         
@@ -31,5 +31,5 @@
 import CompanyLogo from '@/Components/Atoms/CompanyLogo.vue'
 import FooterNavItemList from '@/Components/Molecules/FooterNavItemList.vue'
 import SocialLinkList from '@/Components/Molecules/SocialLinkList.vue'
-import { lightLogo, darkLogo, footerNavigation } from '@/data.js'
+import { footerNavigation } from '@/data.js'
 </script>

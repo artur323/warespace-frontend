@@ -4,7 +4,7 @@
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <CompanyLogo :lightLogoSrc="lightLogo" :darkLogoSrc="darkLogo" alt="Your Company" />
+          <CompanyLogo alt="Your Company" />
         </a>
       </div>
       <div class="flex lg:hidden">
@@ -15,13 +15,13 @@
         <LinkButton href="#" />
       </div>
     </nav>
-    <MobileMenu :navigation="navigation" :mobileMenuOpen="mobileMenuOpen" :logoSrc="darkLogo" :closeMenu="closeMenu" :lightLogoSrc="lightLogo" :darkLogoSrc="darkLogo"/>
+    <MobileMenu :navigation="navigation" :mobileMenuOpen="mobileMenuOpen" :closeMenu="closeMenu"/>
   </header>
 </template>
 
 <script setup>
 import { ref } from 'vue'
-import { navigation, lightLogo, darkLogo, lightModeSvg, darkModeSvg } from '@/data.js'
+import { navigation, lightLogo, darkLogo } from '@/data.js'
 import CompanyLogo from '@/Components/Atoms/CompanyLogo.vue'
 import MobileMenuButton from '@/Components/Atoms/MobileMenuButton.vue'
 import NavigationLinks from '@/Components/Molecules/NavigationLinks.vue'

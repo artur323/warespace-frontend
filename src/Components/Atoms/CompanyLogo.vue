@@ -1,16 +1,10 @@
 <template>
-  <img v-if="!isDarkMode" :src="lightLogoSrc" class="h-6 sm:h-8 w-auto" :alt="alt" />
-  <img v-else :src="darkLogoSrc" class="h-6 sm:h-8 w-auto" :alt="alt" />
+  <div class="h-[24px] w-[165.09px] sm:h-[32px] sm:w-[220.13px] bg-light-logo dark:bg-dark-logo bg-contain" :alt="alt" />
 </template>
 <script setup>
-import { defineProps, inject } from 'vue';
+import { defineProps } from 'vue';
 
 const props = defineProps({
-  lightLogoSrc: String,
-  darkLogoSrc: String,
   alt: String,
 })
-
-const isDarkMode = inject('isDarkMode');
-
 </script>
